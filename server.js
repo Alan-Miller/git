@@ -12,8 +12,7 @@ const data = {
     ]
 }
 
-app.get('/api/date', (req, res) => {
-    // this one has date
+app.get('/api/data/stuff', (req, res) => {
     res.status(200).send(data);
 });
 

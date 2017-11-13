@@ -12,7 +12,7 @@ const data = {
     ]
 }
 
-app.get('/api/data', (req, res) => {
+app.get('/api/data/stuff', (req, res) => {
     res.status(200).send(data);
 });
 

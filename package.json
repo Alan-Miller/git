@@ -15,6 +15,3 @@
   "author": "",
   "license": "ISC"
 }
-node_modules >> package.json
-echo -e node_modules >> .gitignore
-echo -e node_modules
